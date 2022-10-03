@@ -1,0 +1,11 @@
+basic.forever(function () {
+    music.playMelody("A E C5 B C D G F ", 136)
+    music.playMelody("E B C5 D B E A F ", 148)
+    music.setVolume(218)
+    music.playMelody("A G F E D C B F ", 151)
+    music.playMelody("C5 B A G F E D C ", 207)
+    music.playMelody("C5 B A G F E D C ", 120)
+    music.rest(music.beat(BeatFraction.Whole))
+    music.playMelody("C D E F G A B C5 ", 120)
+    music.playMelody("C D E F G A B C5 ", 218)
+})
